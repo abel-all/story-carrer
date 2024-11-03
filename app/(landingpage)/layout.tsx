@@ -1,7 +1,9 @@
+import Navbar from "./_components/navbar";
+
 const LandingPageLayout = ({ children } : { children : React.ReactNode}) => {
     return (
     <div>
-        navbar
+        <Navbar/>
         <main>
         {children}
         </main>
